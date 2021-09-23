@@ -8,7 +8,7 @@
 rcloneinstall() {
 
     # install what version of rclone
-    rversion=1.55.0
+    rversion=1.56.1
 
     rcheck1=$(rclone --version 2>&1)
     rcheck2=$(echo $rcheck1 | cut -c1-12)
